@@ -1,6 +1,6 @@
 # README
 
-This is a calendar application that:
+This is a calendar application using JavaScript and React that:
 
 - Takes as input an array of objects.
 - Each object contains a start time and an end time for the event.
