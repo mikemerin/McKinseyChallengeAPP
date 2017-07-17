@@ -17,10 +17,15 @@ To install the required Gems:
 ---
 
 brew uninstall --force node
+
 brew update
+
 brew install nvm
+
 export NVM_DIR=~/.nvm
+
 source $(brew --prefix nvm)/nvm.sh
+
 nvm install 6
 
 ---

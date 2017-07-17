@@ -1,44 +1,39 @@
 import React, { Component } from 'react'
 
-
 export const Times = () => {
 
     return (
-      <div id="wrapper">
-         <div id="times" class="left">
-            <div class="slot">9:00 <span>AM</span></div>
-            <div class="slot"><span>9:30</span></div>
-            <div class="slot">10:00 <span>AM</span></div>
-            <div class="slot"><span>10:30</span></div>
-            <div class="slot">11:00 <span>AM</span></div>
-            <div class="slot"><span>11:30</span></div>
-            <div class="slot">12:00 <span>PM</span></div>
-            <div class="slot"><span>12:30</span></div>
-            <div class="slot">1:00 <span>PM</span></div>
-            <div class="slot"><span>1:30</span></div>
-            <div class="slot">2:00 <span>PM</span></div>
-            <div class="slot"><span>2:30</span></div>
-            <div class="slot">3:00 <span>PM</span></div>
-            <div class="slot"><span>3:30</span></div>
-            <div class="slot">4:00 <span>PM</span></div>
-            <div class="slot"><span>4:30</span></div>
-            <div class="slot">5:00 <span>PM</span></div>
-            <div class="slot"><span>5:30</span></div>
-            <div class="slot">6:00 <span>PM</span></div>
-            <div class="slot"><span>6:30</span></div>
-            <div class="slot">7:00 <span>PM</span></div>
-            <div class="slot"><span>7:30</span></div>
-            <div class="slot">8:00 <span>PM</span></div>
-            <div class="slot"><span>8:30</span></div>
-            <div class="slot">9:00 <span>PM</span></div>
-         </div>
-
-         <div id="calander" class="left">
-
-         </div>
+      <div id="times">
+          <strong>
+          <div>9:00 <font size='1' color='grey'>AM</font></div>
+          <div><font size='1' color='grey'>9:30</font></div>
+          <div>10:00 <font size='1' color='grey'>AM</font></div>
+          <div><font size='1' color='grey'>10:30</font></div>
+          <div>11:00 <font size='1' color='grey'>AM</font></div>
+          <div><font size='1' color='grey'>11:30</font></div>
+          <div>12:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>12:30</font></div>
+          <div>1:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>1:30</font></div>
+          <div>2:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>2:30</font></div>
+          <div>3:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>3:30</font></div>
+          <div>4:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>4:30</font></div>
+          <div>5:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>5:30</font></div>
+          <div>6:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>6:30</font></div>
+          <div>7:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>7:30</font></div>
+          <div>8:00 <font size='1' color='grey'>PM</font></div>
+          <div><font size='1' color='grey'>8:30</font></div>
+          <div>9:00 <font size='1' color='grey'>PM</font></div>
+          </strong>
       </div>
     )
-  
+
 }
 
 export default Times
