@@ -15,12 +15,14 @@ To install the required Gems:
 + Note: if npm does not work on your machine, copy and paste the following into your terminal:
 
 ---
+
 brew uninstall --force node
 brew update
 brew install nvm
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 nvm install 6
+
 ---
 
-2. Type 'npm start' load up your server (after loading the API), then choose a port different than the normal localhost:3001
+2. Type 'npm start' load up your server (after loading the API), then choose a port different than the normal (such as localhost:3001)
