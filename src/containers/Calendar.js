@@ -29,7 +29,7 @@ export default class Calendar extends Component {
           <Times />
         </Grid.Column>
         <Grid.Column className='left' width={12} color="grey">
-          <Slots height={this.state.height} />
+          <Slots input={this.props.input} height={this.state.height} />
         </Grid.Column>
       </Grid>
     )

@@ -7,6 +7,13 @@ This is a calendar application that:
 - When two events collide they appear next to each other, otherwise the calendar event blocks sit on top of each other.
 - Try to replicate as much as possible the layout in the attached image.
 
+An example input is:
+
+
+```javascript
+let obj = [ {start_time: '10:30', end_time: '11:00'},
+            {start_time: '19:30', end_time: '21:00'} ]
+```
 
 To install the required Gems:
 
