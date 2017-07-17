@@ -37,4 +37,4 @@ nvm install 6
 
 ---
 
-2. Type 'npm start' load up your server (after loading the API), then choose a port different than the normal (such as localhost:3001)
+2. Type 'npm start' load up your server
